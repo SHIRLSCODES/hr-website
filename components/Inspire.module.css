@@ -1,0 +1,77 @@
+.inspire-text {
+  padding-top: 60px;
+  text-align: left;
+  padding-left: 90px;
+  width: 30%;
+}
+
+.inspire-text h3 {
+  color: rgb(255, 86, 24);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1em;
+}
+
+.inspire-text h1 {
+  color: rgb(68, 66, 66);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.inspire-text p {
+  color: rgb(43, 41, 41);
+  font-size: 20px;
+}
+.inspire-image {
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 90px;
+  padding-bottom: 60px;
+  height: 100%;
+}
+
+.inspire {
+  position: relative;
+  display: inline-block;
+  overflow: hidden; /* Add this line to hide the overflowing overlay */
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: -100%; /* Start the overlay off-screen to the right */
+  width: 50%;
+  height: 70%;
+  background-color: rgba(243, 73, 11, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: right 0.5s; /* Add a transition for smooth animation */
+  margin-top: 60px;
+}
+
+.inspire:hover .overlay {
+  right: 0;
+  opacity: 1;
+}
+
+.overlay button {
+  border: 2px solid white; /* Add a white border to the button */
+  padding: 10px 20px; /* Add padding to the button for better appearance */
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transitions for smooth hover effect */
+  margin-top: 20px;
+}
+
+.overlay button:hover {
+  background-color: white; /* Change background color on hover */
+  color: rgb(233, 107, 35); /* Change text color on hover */
+  border-color: rgb(255, 255, 255); /* Change border color on hover */
+}

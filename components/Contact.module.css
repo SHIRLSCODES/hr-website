@@ -1,0 +1,39 @@
+.contact-heading {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.contact-heading h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.contact-heading p {
+  font-weight: 700;
+  color: #eb7d24;
+}
+
+.contact-image {
+  padding: 60px;
+  padding-left: 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+.image {
+  width: 270px;
+  transition: 0.5s ease-in-out;
+  height: 180px;
+}
+
+.image:hover {
+  width: 290px;
+  cursor: pointer;
+}
+
+.text {
+  padding-left: 40px;
+  padding-top: 20px;
+  font-weight: 600;
+}

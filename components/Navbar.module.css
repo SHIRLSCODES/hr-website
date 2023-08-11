@@ -1,0 +1,9 @@
+.navbar li {
+  color: rgb(41, 40, 40);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar li:hover {
+  color: rgb(231, 138, 51);
+}

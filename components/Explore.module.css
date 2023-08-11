@@ -1,0 +1,25 @@
+.image {
+  height: 600px;
+  object-fit: cover;
+}
+
+.explore-text {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+}
+
+.explore-text h2 {
+  color: rgb(184, 98, 0);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.explore-text h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+}

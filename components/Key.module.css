@@ -1,0 +1,29 @@
+.key-heading {
+  text-align: center;
+  font-size: 32px;
+  color: rgb(26, 25, 25);
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.key-text {
+  margin-top: 90px;
+  margin-left: 180px;
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+.key-text div {
+  text-align: center;
+}
+
+.key-text h1 {
+  font-size: 50px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.key-text p {
+  font-size: 14px;
+}

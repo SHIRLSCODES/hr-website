@@ -1,0 +1,42 @@
+.discover-image {
+  background-color: #ffffff;
+}
+
+.relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(253, 119, 66, 0.5);
+  opacity: 0; /* Initially hidden */
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.relative:hover .overlay {
+  height: 100%;
+  opacity: 1; /* Show overlay on hover */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 30%; /* Center vertically */
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  transform: translateY(-50%); /* Adjust to center vertically */
+  transition: transform 0.3s ease-in-out;
+  text-align: center; /* Center the text horizontally */
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.overlay:hover .overlay-text {
+  transform: translateY(0);
+}
