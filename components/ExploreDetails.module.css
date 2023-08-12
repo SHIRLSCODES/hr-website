@@ -1,3 +1,9 @@
+.explore-container {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  margin-left: 40px;
+}
 .explore {
   display: flex;
   flex-direction: column;
@@ -35,4 +41,58 @@
 
 .button:hover {
   background-color: rgb(172, 54, 11);
+}
+
+@media (max-width: 768px) {
+  .explore-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+    margin-left: 70px;
+  }
+
+  .button {
+    margin-left: 250px;
+  }
+  .explore {
+    width: 400px;
+  }
+  .explore-image {
+    width: 400px;
+  }
+}
+
+@media (max-width: 425px) {
+  .explore-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .explore {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .explore-image {
+    width: 100%;
+  }
+
+  .button {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .explore {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .explore-image {
+    width: 100%;
+  }
 }

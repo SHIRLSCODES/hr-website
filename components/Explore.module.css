@@ -1,3 +1,6 @@
+.explore {
+  position: relative;
+}
 .image {
   height: 600px;
   object-fit: cover;
@@ -22,4 +25,11 @@
   color: white;
   font-weight: 600;
   font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  .explore-text {
+    left: 50%;
+    top: 40%;
+  }
 }

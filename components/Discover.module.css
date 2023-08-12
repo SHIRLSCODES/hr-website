@@ -40,3 +40,36 @@
 .overlay:hover .overlay-text {
   transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+  /* Styles for smaller screens */
+  .discover-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .discover-text {
+    width: 80%;
+    font-size: 26px;
+  }
+  .discover-image {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .image {
+    width: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .discover-section {
+    width: 100%;
+    justify-content: center;
+  }
+}

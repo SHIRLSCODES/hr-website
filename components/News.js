@@ -4,13 +4,13 @@ import styles from './News.module.css'
 
 function News() {
   return (
-    <div className='bg-[#ffffff] mt-[50px] pt-[50px] pb-[50px]'>
+    <div className={`bg-[#ffffff] mt-[50px] pt-[50px] pb-[50px] ${styles['news-container']}`}>
         <div className={`${styles['news-header']}`}>
             <h3>STAY TUNED</h3>
             <h4>Our latest news & events</h4>
         </div>
 
-        <div className='flex flex-row w-[1200px] bg-white shadow-md h-[400px] m-auto'>
+        <div className={`flex flex-row w-[1200px] bg-white shadow-md h-[400px] m-auto ${styles['news-image-container']}`}>
           <div className={`${styles['news']}`}>
             <div>
                 <Image src='/../public/asset 12.jpeg' alt='/' width={200} height={200} className={`${styles['news-image']}`} />

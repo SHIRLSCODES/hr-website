@@ -10,7 +10,7 @@ function WhoWeAre() {
         <h2>We deliver sustainable impact</h2>
         </div>
 
-        <div className={`${styles.section} w-[1100px] h-[340px] m-[auto]`}>
+        <div className={`${styles.section} m-[auto]`}>
             <div className={`${styles['relative']}`}>
                <Image src='/../public/asset 27.jpeg' alt='/'  width='200' height='100' className={`${styles['image']} object-cover`}/>
                <div className={`${styles['overlay']}`}>

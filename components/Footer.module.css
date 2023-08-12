@@ -34,3 +34,36 @@
   margin-top: 120px;
   margin-left: 40px;
 }
+
+@media (max-width: 768px) {
+  .image {
+    height: 40px;
+    margin-left: 5px;
+    width: 40px;
+  }
+  .footer-text {
+    padding-left: 20px;
+    font-size: 20px;
+    display: flex;
+    width: 200px;
+    margin-left: 70px;
+  }
+
+  .footer-container {
+    gap: 60px;
+  }
+
+  .text {
+    margin-top: 80px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer {
+    height: 100%;
+  }
+}

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Slider from "react-slick";
+import styles from './Hero.module.css'
 
 function Hero() {
 
@@ -8,8 +9,8 @@ function Hero() {
   return (
     <div>
      
-      <div className=''>
-        <Image src='/../public/asset 21.jpeg' alt='/' width='1400' height="30" />
+      <div className={`${styles['hero-image']}`} >
+        <Image src='/../public/asset 21.jpeg' alt='/' width='1400' height="30" className={`${styles['hero-image']}`} />
       </div>
   
     

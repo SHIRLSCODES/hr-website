@@ -75,3 +75,37 @@
   color: rgb(233, 107, 35); /* Change text color on hover */
   border-color: rgb(255, 255, 255); /* Change border color on hover */
 }
+
+@media (max-width: 768px) {
+  .inspire-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inspire-text {
+    width: 70%;
+    padding-left: 20px;
+  }
+
+  .inspire-image {
+    padding-left: 0px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .inspire-image {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .inspire {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+  }
+
+  .inspire-container {
+    width: 100%;
+  }
+}

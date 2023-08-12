@@ -7,7 +7,7 @@ import {FaArrow} from 'react-icons/fa'
 function ExploreDetails() {
   return (
     <div>
-    <div className='flex flex-row w-[1300px] ml-[40px]'>
+    <div className={` ${styles['explore-container']}`}>
         <div className={`${styles['explore']}`}>
             <div className={`${styles['explore-image']}`}>
                 <Image src='/../public/asset 2.jpeg' alt='/' width={200} height={200} className={`${styles['explore-image']}`} />

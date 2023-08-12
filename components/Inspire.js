@@ -4,7 +4,7 @@ import styles from './Inspire.module.css'
 
 function Inspire() {
   return (
-    <div className='bg-[#e6e3e3] mt-[120px] flex w-[100%] pb-[120px] pt-[80px] pl-[100px]'>
+    <div className={`bg-[#e6e3e3] mt-[120px] flex w-[100%] pb-[120px] pt-[80px] pl-[100px] ${styles['inspire-container']}`}>
        <div  className={`${styles['inspire-text']}`}>
         <h3>BE INSPIRED</h3>
         <h1>Our latest Insights</h1>

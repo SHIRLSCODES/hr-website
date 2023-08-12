@@ -1,16 +1,23 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import React, {useState} from 'react'
 import styles from './Navbar.module.css'
 
 
 function Navbar() {
+    const [nav, setNav] = useState(false)
+
+    const handleNav = () => {
+        setNav(!nav)
+    }
+
   return (
-    <div className='fixed w-full h-20 bg-gray-100 z-20'>
-      <div className='flex justify-between items-center w-full h-full px-10 2xl:px-16 ml-6'>
-        <Image src= '/../public/asset 0.png' alt='logo' width='125' height="50"/>
+    <div className='fixed top-0 w-full h-20 bg-gray-100 z-20'>
+      <div className='flex justify-between items-center w-full h-full px-10 ml-6 xlsm:ml-0'>
+        <Image src= '/../public/asset 0.png' alt='logo' width='125' height="50" className={`${styles['image']}`}/>
         <div >
-            <ul className={`${styles['navbar']} hidden md:flex mr-6 `}>
+            <ul className={`${styles['navbar']} flex md:flex mr-6 xlsm:mr-0`}>
                 <Link href='/'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>ABOUT EFESO</li>
                 </Link>
@@ -33,10 +40,26 @@ function Navbar() {
                     <li className='ml-10 text-xs uppercase tracking-widest'>SEARCH</li>
                 </Link>
             </ul>
-     
-          
-          
         </div>
+        <div onClick={handleNav} className='hidden md:block'>
+         {
+            !nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />
+         }
+        </div>
+      </div>
+
+      <div className={!nav ? 'fixed left-0 top-0 w-[60%] border-r  h-full bg-[#f0f0ed] ease-in-out duration-500' : 'fixed left-[-100%] top-0 w-[60%] border-r  h-full bg-[#f0f0ed]'}>
+ 
+      <Image src= '/../public/asset 0.png' alt='logo' width='200' height="50" className={`mt-10 ml-6 w-[200px]${styles['image']}`}/>
+         <ul className={`pt-10 ${styles['navbar-mobile']}`}>
+           <Link href='/'><li className='p-4'>ABOUT EFESO</li></Link>
+           <Link href='/'><li className='p-4'>EXPERTISE</li></Link>
+           <Link href='/'><li className='p-4'>INDUSTRIES</li></Link>
+           <Link href='/'><li className='p-4'>KNOW NOW</li></Link>
+           <Link href='/'><li className='p-4'>CAREERS</li></Link>
+           <Link href='/'><li className='p-4'>CONTACT US</li></Link>
+           <Link href='/'><li className='p-4'>SEARCH</li></Link>
+         </ul>
       </div>
     </div>
   )

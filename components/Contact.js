@@ -4,7 +4,7 @@ import styles from './Contact.module.css'
 
 function Contact() {
   return (
-    <div className='bg-[#d1d0d0] w-[100%] h-[500px]'>
+    <div className={`bg-[#d1d0d0] w-[100%] h-[500px] ${styles['contact-container']}`}>
         <div className={`${styles['contact-heading']}`}>
             <h1>How can we help you?</h1>
             <p>GET IN TOUCH WITH US</p>

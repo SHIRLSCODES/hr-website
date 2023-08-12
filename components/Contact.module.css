@@ -37,3 +37,31 @@
   padding-top: 20px;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .contact-image {
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+    gap: 30px;
+  }
+  .contact-container {
+    height: 1000px;
+  }
+  .image {
+    width: 400px;
+  }
+  .text {
+    padding-left: 90px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-image {
+    padding-left: 50px;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

@@ -7,3 +7,29 @@
 .navbar li:hover {
   color: rgb(231, 138, 51);
 }
+.navbar-mobile li {
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar-mobile li:hover {
+  color: rgb(231, 138, 51);
+}
+@media (max-width: 768px) {
+  .navbar li {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 0px;
+  }
+  .image {
+    width: 90px;
+  }
+}
+@media (max-width: 425px) {
+  .navbar li {
+    display: none;
+  }
+}

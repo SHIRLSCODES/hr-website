@@ -4,7 +4,7 @@ import styles from './Explore.module.css'
 
 function Explore() {
   return (
-    <div className='relative'>
+    <div className={`${styles['explore']}`}>
        <Image src='/../public/asset 32.webp' alt='/' width={1400} height={100} className={`${styles['image']}`}/>
        <div className={`${styles['explore-text']}`} >
         <h2>EXPLORE</h2>
