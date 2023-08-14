@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import Slider from "react-slick";
 import styles from './Hero.module.css'
 
 function Hero() {
@@ -10,35 +9,14 @@ function Hero() {
     <div>
      
       <div className={`${styles['hero-image']}`} >
-        <Image src='/../public/asset 21.jpeg' alt='/' width='1400' height="30" className={`${styles['hero-image']}`} />
+        <Image src='/assets/asset 21.jpeg' alt='/' width='1400' height="30" className={`${styles['hero-image']}`} />
       </div>
   
     
     </div>
   ) 
 
-  // return (
-  //   <Slider {...settings}>
-  //     <div>
-  //       <h3>1</h3>
-  //     </div>
-  //     <div>
-  //       <h3>2</h3>
-  //     </div>
-  //     <div>
-  //       <h3>3</h3>
-  //     </div>
-  //     <div>
-  //       <h3>4</h3>
-  //     </div>
-  //     <div>
-  //       <h3>5</h3>
-  //     </div>
-  //     <div>
-  //       <h3>6</h3>
-  //     </div>
-  //   </Slider>
-  // );
+ 
 }
 
 export default Hero

@@ -10,7 +10,7 @@ function ExploreDetails() {
     <div className={` ${styles['explore-container']}`}>
         <div className={`${styles['explore']}`}>
             <div className={`${styles['explore-image']}`}>
-                <Image src='/../public/asset 2.jpeg' alt='/' width={200} height={200} className={`${styles['explore-image']}`} />
+                <Image src='/assets/asset 2.jpeg' alt='/' width={200} height={200} className={`${styles['explore-image']}`} />
             </div>
             <div className={`${styles['explore-details-text']}`}>
                 <p>Behavioral development in a large-scale retail channel improved: Planning and forecast KPIs to 98%, picking lines OK 99.9%</p>
@@ -19,7 +19,7 @@ function ExploreDetails() {
 
         <div className={`${styles['explore']}`}>
             <div className={`${styles['explore-image']}`}>
-                <Image src='/../public/asset 10.jpeg' alt='/' width={200} height={200} className={`${styles['explore-image']}`} />
+                <Image src='/assets/asset 10.jpeg' alt='/' width={200} height={200} className={`${styles['explore-image']}`} />
             </div>
             <div className={`${styles['explore-details-text']}`}>
                 <p>Mobilising an insurance compnay workforce to achieve the full digitisation of operational processes</p>
@@ -28,7 +28,7 @@ function ExploreDetails() {
 
         <div className={`${styles['explore']}`}>
             <div className={`${styles['explore-image']}`}>
-                <Image src='/../public/asset 24.jpeg' alt='/' width={200} height={200} className={`${styles['explore-image']}`} />
+                <Image src='/assets/asset 24.jpeg' alt='/' width={200} height={200} className={`${styles['explore-image']}`} />
             </div>
             <div className={`${styles['explore-details-text']}`}>
                 <p>WCOM implementation in an electrical company with operational cost reduction of EUR 8-10 m</p>

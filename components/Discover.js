@@ -14,18 +14,16 @@ function Discover() {
             </div>
             <div className={`flex gap-[20px] ${styles['discover-image']}`}>
                 <div className={`${styles['relative']}`}>
-                    <Image src='/../public/asset 23.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/>
+                    <Image src='/assets/asset 23.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/>
                     <div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>ABOUT EFESO</p></div>
                 </div>
-                <div className={`${styles['relative']}`}><Image src='/../public/asset 25.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>INDUSTRIES WE SUPPORT</p></div></div>
-                <div className={`${styles['relative']}`}><Image src='/../public/asset 26.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>NEWS</p></div></div>
-                <div className={`${styles['relative']}`}><Image src='/../public/asset 24.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>JOIN US</p></div></div>
+                <div className={`${styles['relative']}`}><Image src='/assets/asset 25.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>INDUSTRIES WE SUPPORT</p></div></div>
+                <div className={`${styles['relative']}`}><Image src='/assets/asset 26.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>NEWS</p></div></div>
+                <div className={`${styles['relative']}`}><Image src='/assets/asset 24.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>JOIN US</p></div></div>
             </div>
         </div>
     )
-    //flex flex-col md:flex-row justify-between items-center w-full 
-    // 'w-[40%] mr-[30px] ml-[30px] mt-[60px]'
-    // 'flex w-[60%] gap-[20px] '
+   
 }
 
 export default Discover

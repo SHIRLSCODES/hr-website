@@ -12,7 +12,7 @@ function Inspire() {
        </div>
 
        <div className={`${styles['inspire']}`}>
-        <Image src='/../public/asset 10.jpeg' alt='/' width='100' height='100' className={`${styles['inspire-image']}`}/>
+        <Image src='/assets/asset 10.jpeg' alt='/' width='100' height='100' className={`${styles['inspire-image']}`}/>
         <div className={`${styles['overlay']}`} >
            <p className={`${styles['overlay-text']}`}>
            How EFESO is Helping Retailers like Primark Develop Sustainable Supply Chain Strategies

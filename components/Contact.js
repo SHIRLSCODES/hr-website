@@ -12,21 +12,21 @@ function Contact() {
 
         <div className={`${styles['contact-image']}`}>
            <div>
-            <Image src='/../public/asset 30.jpeg' alt='/' width='100' height='100'className={`${styles['image']}`} />
+            <Image src='/assets/asset 30.jpeg' alt='/' width='100' height='100'className={`${styles['image']}`} />
            <div className={`${styles['text']}`}>
             <p>Our offices worldwide</p>
            </div>
            </div>
 
            <div>
-            <Image src='/../public/asset 4.jpeg' alt='/' width='100' height='100'className={`${styles['image']}`} />
+            <Image src='/assets/asset 4.jpeg' alt='/' width='100' height='100'className={`${styles['image']}`} />
            <div className={`${styles['text']}`}>
             <p>+234-800-0000</p>
            </div>
            </div>
 
            <div>
-            <Image src='/../public/asset 14.jpeg' alt='/' width='100' height='100'className={`${styles['image']}`} />
+            <Image src='/assets/asset 14.jpeg' alt='/' width='100' height='100'className={`${styles['image']}`} />
            <div className={`${styles['text']}`}>
             <p>Start a conversation</p>
            </div>
