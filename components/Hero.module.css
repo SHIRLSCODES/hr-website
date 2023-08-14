@@ -3,3 +3,10 @@
     width: 425px;
   }
 }
+
+@media (max-width: 375px) {
+  .hero-image {
+    width: 375px;
+    height: 300px;
+  }
+}
