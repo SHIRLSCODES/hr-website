@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <div className='fixed top-0 w-full h-20 bg-gray-100 z-20'>
       <div className='flex justify-between items-center w-full h-full px-10 ml-6 xlsm:ml-0'>
-        <Image src= '/../public/asset 0.png' alt='logo' width='125' height="50" className={`${styles['image']}`}/>
+        <Image src= '/assets/asset 0.png' alt='logo' width='125' height="50" className={`${styles['image']}`}/>
         <div >
             <ul className={`${styles['navbar']} flex md:flex mr-6 xlsm:mr-0`}>
                 <Link href='/'>
