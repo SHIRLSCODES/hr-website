@@ -108,4 +108,26 @@
   .inspire-container {
     width: 100%;
   }
+  .overlay {
+    display: flex;
+    position: absolute;
+    right: 0%;
+  }
+}
+
+@media (max-width: 375px) {
+  .inspire-container {
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .inspire-image {
+    padding-right: 0px;
+  }
+
+  .overlay {
+    display: flex;
+    position: absolute;
+    right: 0%;
+  }
 }

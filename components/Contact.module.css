@@ -64,4 +64,8 @@
   .image {
     width: 100%;
   }
+  .text {
+    text-align: center;
+    padding-left: 0px;
+  }
 }

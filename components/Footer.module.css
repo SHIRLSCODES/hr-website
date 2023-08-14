@@ -67,3 +67,12 @@
     height: 100%;
   }
 }
+
+@media (max-width: 425px) {
+  .image {
+    margin-left: 20px;
+  }
+  .footer-text {
+    margin-left: 5px;
+  }
+}

@@ -97,3 +97,17 @@
     width: 300px;
   }
 }
+
+@media (max-width: 375px) {
+  .relative {
+    overflow: hidden;
+  }
+
+  .overlay {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    opacity: 1;
+    width: 97%;
+  }
+}

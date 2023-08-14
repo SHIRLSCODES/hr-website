@@ -95,4 +95,11 @@
   .explore-image {
     width: 100%;
   }
+  .explore-details-text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .button {
+    margin-top: 30px;
+  }
 }
