@@ -98,6 +98,20 @@
   }
 }
 
+@media (max-width: 425px) {
+  .relative {
+    overflow: hidden;
+  }
+
+  .overlay {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    opacity: 1;
+    width: 97%;
+  }
+}
+
 @media (max-width: 375px) {
   .relative {
     overflow: hidden;
@@ -109,5 +123,14 @@
     height: 100%;
     opacity: 1;
     width: 97%;
+  }
+}
+@media (max-width: 320px) {
+  .section {
+    width: 280px;
+    padding-left: 10px;
+  }
+  .overlay {
+    width: 100%;
   }
 }

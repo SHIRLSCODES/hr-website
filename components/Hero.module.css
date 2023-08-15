@@ -1,6 +1,7 @@
 @media (max-width: 425px) {
   .hero-image {
     width: 425px;
+    height: 300px;
   }
 }
 
@@ -8,5 +9,10 @@
   .hero-image {
     width: 375px;
     height: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .hero-image {
+    width: 320px;
   }
 }

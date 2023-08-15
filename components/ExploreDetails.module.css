@@ -103,3 +103,15 @@
     margin-top: 30px;
   }
 }
+@media (max-width: 320px) {
+  .explore {
+    width: 90%;
+    padding-left: 0px;
+  }
+  .explore-container {
+    padding-left: 0px;
+  }
+  .button {
+    margin-left: 36px;
+  }
+}

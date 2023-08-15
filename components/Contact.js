@@ -10,7 +10,7 @@ function Contact() {
             <p>GET IN TOUCH WITH US</p>
         </div>
 
-        <div className={`${styles['contact-image']}`}>
+        <div className={`${styles['contact-image']}`} data-aos="zoom-in-right"  data-aos-duration="4000">
            <div>
             <Image src='/assets/asset 30.jpeg' alt='/' width='100' height='100'className={`${styles['image']}`} />
            <div className={`${styles['text']}`}>

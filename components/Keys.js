@@ -7,7 +7,12 @@ function Keys() {
         <div className={`${styles['key-heading']}`}>
             <h1>EFESO Key Figures</h1>
         </div>
-       <div className={`${styles['key-text']}`}>
+       <div className={`${styles['key-text']}`}
+       data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" 
+     data-aos-duration="4000"
+     >
         <div>
          <h1>1300</h1>
          <p>ASSIGNMENTS/YEAR</p>

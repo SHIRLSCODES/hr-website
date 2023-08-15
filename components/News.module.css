@@ -59,6 +59,7 @@
     width: 100%;
     padding-left: 0px;
     gap: 10px;
+    margin-top: 20px;
   }
   .news {
     width: 100%;
@@ -67,5 +68,8 @@
 
   .news-image {
     width: 100%;
+  }
+  .news-container {
+    margin-top: 10px;
   }
 }

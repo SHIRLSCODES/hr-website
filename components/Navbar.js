@@ -49,16 +49,16 @@ function Navbar() {
       </div>
 
      
-       <div className={nav===true ? 'block fixed left-0 top-0 w-[60%] border-r  h-full bg-[#f0f0ed] ease-in-out duration-500' : 'hidden fixed left-[-100%] top-0 w-[60%] border-r  h-full bg-[#f0f0ed]'}>
-      <Image src= '/assets/asset 0.png' alt='logo' width='150' height="50" className={`mt-10 ml-6 w-[160px]${styles['image']}`}/>
+       <div className={nav===true ? 'block fixed left-0 top-0 w-[50%] border-r  h-full bg-[#f0f0ed] ease-in-out duration-700' : 'hidden fixed left-[-100%] top-0 w-[50%] border-r  h-full bg-[#f0f0ed]'}>
+      <Image src= '/assets/asset 0.png' alt='logo' width='100' height="50" className={`mt-10 ml-6 w-[160px]${styles['image']}`}/>
          <ul className={`pt-10  ${styles['navbar-mobile']}`}>
-           <Link href='/'><li className='p-4'>ABOUT EFESO</li></Link>
-           <Link href='/'><li className='p-4'>EXPERTISE</li></Link>
-           <Link href='/'><li className='p-4'>INDUSTRIES</li></Link>
-           <Link href='/'><li className='p-4'>KNOW NOW</li></Link>
-           <Link href='/'><li className='p-4'>CAREERS</li></Link>
-           <Link href='/'><li className='p-4'>CONTACT US</li></Link>
-           <Link href='/'><li className='p-4'>SEARCH</li></Link>
+           <Link href='/'><li className='p-4 text-sm '>ABOUT EFESO</li></Link>
+           <Link href='/'><li className='p-4 text-sm '>EXPERTISE</li></Link>
+           <Link href='/'><li className='p-4 text-sm '>INDUSTRIES</li></Link>
+           <Link href='/'><li className='p-4 text-sm '>KNOW NOW</li></Link>
+           <Link href='/'><li className='p-4 text-sm  '>CAREERS</li></Link>
+           <Link href='/'><li className='p-4 text-sm  '>CONTACT US</li></Link>
+           <Link href='/'><li className='p-4 text-sm '>SEARCH</li></Link>
          </ul>
       </div> 
     </div>

@@ -91,6 +91,13 @@
     padding-left: 0px;
     padding-right: 40px;
   }
+  .overlay {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    width: 60%;
+    margin-right: 40px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -107,11 +114,15 @@
 
   .inspire-container {
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
   .overlay {
     display: flex;
     position: absolute;
     right: 0%;
+    width: 60%;
+    margin-right: 40px;
   }
 }
 
