@@ -11,7 +11,7 @@ function Inspire() {
         <p>Our latest thinking on the issues that matter most in business and operations topics.</p>
        </div>
 
-       <div className={`${styles['inspire']}`} data-aos="zoom-in-left"  data-aos-duration="4000">
+       <div className={`${styles['inspire']}`} data-aos="fade-up"  data-aos-duration="4000">
         <Image src='/assets/asset 10.jpeg' alt='/' width='100' height='100' className={`${styles['inspire-image']}`}/>
         <div className={`${styles['overlay']}`} >
            <p className={`${styles['overlay-text']}`}>

@@ -5,10 +5,10 @@ import styles from './Discover.module.css'
 
 function Discover() {
     return (
-        <div className={`mt-[100px] px-[40px] flex items-center justify-between ${styles['discover-section']}`}>
+        <div className={`mt-[100px] px-[40px] flex items-center justify-between w-full ${styles['discover-section']}`}>
             
             <div className={`w-[40%] ${styles['discover-text']}`} 
-            data-aos="fade-left"  
+            data-aos="fade-up"  
             data-aos-offset="200"
     data-aos-delay="50"
     data-aos-duration="2000"
@@ -22,7 +22,7 @@ function Discover() {
             </div>
        
             <div className={`flex gap-[20px] ${styles['discover-image']}`}   
-            data-aos="fade-left" data-aos-duration="2000"
+            data-aos="fade-up" data-aos-duration="2000"
             >
                 <div className={`${styles['relative']}`}>
                     <Image src='/assets/asset 23.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/>
