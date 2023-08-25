@@ -9,7 +9,7 @@ function Hero() {
     <div>
      
       <div className={`${styles['hero-image']}`} >
-        <Image src='/assets/asset 21.jpeg' alt='/' width='1400' height="30" className={`${styles['hero-image']}`} />
+        <Image src='/assets/asset 21.jpeg' alt='/' width='1400' height="30" unoptimized className={`${styles['hero-image']}`} />
       </div>
   
     

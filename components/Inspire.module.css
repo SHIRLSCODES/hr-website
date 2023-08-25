@@ -1,8 +1,8 @@
 .inspire-text {
   padding-top: 60px;
   text-align: left;
-  padding-left: 90px;
-  width: 30%;
+  padding-left: 30px;
+  width: 400px;
 }
 
 .inspire-text h3 {
@@ -27,7 +27,6 @@
   width: 100%;
   padding-top: 60px;
   padding-left: 90px;
-  padding-bottom: 60px;
   height: 100%;
 }
 
@@ -35,7 +34,13 @@
   position: relative;
   display: inline-block;
   overflow: hidden; /* Add this line to hide the overflowing overlay */
-  height: 400px;
+  height: 500px;
+  width: 900px;
+}
+
+.inspire-container {
+  justify-content: center;
+  padding-right: 20px;
 }
 
 .overlay {
@@ -43,7 +48,7 @@
   top: 0;
   right: -100%; /* Start the overlay off-screen to the right */
   width: 50%;
-  height: 70%;
+  height: 100%;
   background-color: rgba(243, 73, 11, 0.5);
   color: white;
   display: flex;

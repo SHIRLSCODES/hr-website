@@ -5,6 +5,7 @@ import Image from 'next/image'
 
 function Footer() {
   return (
+    <div id='footer'>
     <div className={`bg-[#e2e1e1] w-[100%] h-[400px] ${styles['footer']}`}>
        <div className={`${styles['footer-container']}`}>
          <Image src='/assets/asset 16.png' alt='/' width='100' height='100' className={`${styles['image']}`} />
@@ -33,7 +34,7 @@ function Footer() {
 
        
     </div>
-
+    </div>
     
   )
 }

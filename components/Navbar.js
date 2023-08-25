@@ -18,25 +18,25 @@ function Navbar() {
         <Image src= '/assets/asset 0.png' alt='logo' width='125' height="50" className={`${styles['image']}`}/>
         <div >
             <ul className={`${styles['navbar']} flex md:flex mr-6 xlsm:mr-0`}>
-                <Link href='/'>
+                <Link href='#discover-section'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>ABOUT EFESO</li>
                 </Link>
-                <Link href='/'>
+                <Link href='#whoWeAre'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>EXPERTISE</li>
                 </Link>
-                <Link href='/'>
+                <Link href='#inspire'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>INDUSTRIES</li>
                 </Link>
-                <Link href='/'>
+                <Link href='#news'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>KNOW NOW</li>
                 </Link>
-                <Link href='/'>
+                <Link href='#keys'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>CAREERS</li>
                 </Link>
-                <Link href='/'>
+                <Link href='#contact'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>CONTACT US</li>
                 </Link>
-                <Link href='/'>
+                <Link href='#footer'>
                     <li className='ml-10 text-xs uppercase tracking-widest'>SEARCH</li>
                 </Link>
             </ul>

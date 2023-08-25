@@ -3,6 +3,7 @@ import styles from './Key.module.css'
 
 function Keys() {
   return (
+    <div id='keys'>
     <div className={`bg-[#e6e3e3] w-[100%] h-[400px] ${styles['key-container']}`}>
         <div className={`${styles['key-heading']}`}>
             <h1>EFESO Key Figures</h1>
@@ -33,6 +34,7 @@ function Keys() {
          <p>BENEFIT-COST RATIO</p>
          </div>
        </div>
+    </div>
     </div>
   )
 }

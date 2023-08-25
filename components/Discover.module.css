@@ -1,3 +1,14 @@
+.discover-section {
+  width: 1200px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  gap: 64px;
+}
+
+.discover-text {
+  width: 40%;
+}
 .discover-image {
   background-color: #ffffff;
 }
@@ -28,7 +39,7 @@
   top: 30%; /* Center vertically */
   left: 0;
   width: 100%;
-  padding: 1rem;
+
   color: white;
   transform: translateY(-50%); /* Adjust to center vertically */
   transition: transform 0.3s ease-in-out;

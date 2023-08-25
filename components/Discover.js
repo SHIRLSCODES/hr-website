@@ -5,6 +5,7 @@ import styles from './Discover.module.css'
 
 function Discover() {
     return (
+        <div id='discover-section'>
         <div className={`mt-[100px] px-[40px] flex items-center justify-between w-full ${styles['discover-section']}`}>
             
             <div className={`w-[40%] ${styles['discover-text']}`} 
@@ -25,13 +26,14 @@ function Discover() {
             data-aos="fade-up" data-aos-duration="2000"
             >
                 <div className={`${styles['relative']}`}>
-                    <Image src='/assets/asset 23.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/>
+                    <Image src='/assets/asset 23.jpeg' alt='/' width='100' height="100" unoptimized className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/>
                     <div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>ABOUT EFESO</p></div>
                 </div>
-                <div className={`${styles['relative']}`}><Image src='/assets/asset 25.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>INDUSTRIES WE SUPPORT</p></div></div>
-                <div className={`${styles['relative']}`}><Image src='/assets/asset 26.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>NEWS</p></div></div>
-                <div className={`${styles['relative']}`}><Image src='/assets/asset 24.jpeg' alt='/' width='100' height="100" className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>JOIN US</p></div></div>
+                <div className={`${styles['relative']}`}><Image src='/assets/asset 24.jpeg' alt='/' width='100' height="100" unoptimized className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>INDUSTRIES WE SUPPORT</p></div></div>
+                <div className={`${styles['relative']}`}><Image src='/assets/asset 26.jpeg' alt='/' width='100' height="100" unoptimized className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>NEWS</p></div></div>
+                <div className={`${styles['relative']}`}><Image src='/assets/asset 25.jpeg' alt='/' width='100' height="100" unoptimized className= {` w-[150px] h-[300px] object-cover ${styles['image']}`}/><div className={`${styles['overlay']}`}><p className={`${styles['overlay-text']}`}>JOIN US</p></div></div>
             </div>
+        </div>
         </div>
     )
    
