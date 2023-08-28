@@ -93,8 +93,14 @@
   }
 
   .inspire-image {
+    width: 768px;
     padding-left: 0px;
     padding-right: 40px;
+  }
+  .inspire {
+    width: 768px;
+    margin-left: -80px;
+    margin-right: -40px;
   }
   .overlay {
     display: flex;
@@ -109,12 +115,15 @@
   .inspire-image {
     width: 100%;
     padding-left: 0px;
+    padding-right: 0px;
   }
 
   .inspire {
     width: 100%;
     padding: 0px;
     margin: 0;
+    padding-left: 0px;
+    margin-left: -40px;
   }
 
   .inspire-container {
@@ -126,8 +135,12 @@
     display: flex;
     position: absolute;
     right: 0%;
-    width: 60%;
-    margin-right: 40px;
+    width: 70%;
+    margin-right: 0px;
+  }
+  .inspire-text {
+    margin-left: -40px;
+    width: 100%;
   }
 }
 
@@ -146,5 +159,11 @@
     position: absolute;
     right: 0%;
     margin-right: 0px;
+  }
+  .inspire-text {
+    margin-left: 10px;
+  }
+  .inspire {
+    margin-left: 10px;
   }
 }
